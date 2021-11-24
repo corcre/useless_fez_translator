@@ -1,0 +1,208 @@
+/* 
+also can print like this, but can't find perfect character
+██████████
+    ██
+██      ██
+██████████ 
+*/
+.block::before {
+    box-shadow: 
+    10px 10px #fff, 20px 10px #fff, 30px 10px #fff, 40px 10px #fff, 50px 10px #fff, /* 第1行 */
+    10px 20px #fff, 20px 20px #fff, 30px 20px #fff, 40px 20px #fff, 50px 20px #fff, /* 第2行 */
+    10px 30px #fff, 20px 30px #fff, 30px 30px #fff, 40px 30px #fff, 50px 30px #fff, /* 第3行 */
+    10px 40px #fff, 20px 40px #fff, 30px 40px #fff, 40px 40px #fff, 50px 40px #fff, /* 第4行 */
+    10px 50px #fff, 20px 50px #fff, 30px 50px #fff, 40px 50px #fff, 50px 50px #fff; /* 第5行 */
+}
+
+.block.A::before {
+    box-shadow: 
+    10px 10px #000, 20px 10px #000, 30px 10px #000, 40px 10px #000, 50px 10px #000, /* 第1行 */
+    10px 20px #fff, 20px 20px #fff, 30px 20px #000, 40px 20px #fff, 50px 20px #fff, /* 第2行 */
+    10px 30px #000, 20px 30px #fff, 30px 30px #fff, 40px 30px #fff, 50px 30px #000, /* 第3行 */
+    10px 40px #000, 20px 40px #000, 30px 40px #000, 40px 40px #000, 50px 40px #000, /* 第4行 */
+    10px 50px #000, 20px 50px #000, 30px 50px #000, 40px 50px #000, 50px 50px #000; /* 第5行 */
+}
+.block.B::before {
+    box-shadow: 
+    10px 10px #000, 20px 10px #000, 30px 10px #000, 40px 10px #000, 50px 10px #000, /* 第1行 */
+    10px 20px #000, 20px 20px #fff, 30px 20px #fff, 40px 20px #fff, 50px 20px #000, /* 第2行 */
+    10px 30px #000, 20px 30px #fff, 30px 30px #000, 40px 30px #fff, 50px 30px #000, /* 第3行 */
+    10px 40px #fff, 20px 40px #fff, 30px 40px #fff, 40px 40px #fff, 50px 40px #000, /* 第4行 */
+    10px 50px #000, 20px 50px #000, 30px 50px #000, 40px 50px #000, 50px 50px #000; /* 第5行 */
+}
+.block.C::before {
+    box-shadow: 
+    10px 10px #000, 20px 10px #000, 30px 10px #000, 40px 10px #000, 50px 10px #000, /* 第1行 */
+    10px 20px #000, 20px 20px #000, 30px 20px #000, 40px 20px #fff, 50px 20px #fff, /* 第2行 */
+    10px 30px #000, 20px 30px #000, 30px 30px #000, 40px 30px #fff, 50px 30px #000, /* 第3行 */
+    10px 40px #000, 20px 40px #000, 30px 40px #000, 40px 40px #fff, 50px 40px #fff, /* 第4行 */
+    10px 50px #000, 20px 50px #000, 30px 50px #000, 40px 50px #000, 50px 50px #000; /* 第5行 */
+}
+.block.D::before {
+    box-shadow: 
+    10px 10px #000, 20px 10px #000, 30px 10px #000, 40px 10px #000, 50px 10px #000, /* 第1行 */
+    10px 20px #000, 20px 20px #000, 30px 20px #000, 40px 20px #000, 50px 20px #000, /* 第2行 */
+    10px 30px #000, 20px 30px #000, 30px 30px #000, 40px 30px #000, 50px 30px #000, /* 第3行 */
+    10px 40px #fff, 20px 40px #fff, 30px 40px #000, 40px 40px #000, 50px 40px #000, /* 第4行 */
+    10px 50px #000, 20px 50px #fff, 30px 50px #000, 40px 50px #000, 50px 50px #000; /* 第5行 */
+}
+.block.E::before {
+    box-shadow: 
+    10px 10px #000, 20px 10px #000, 30px 10px #000, 40px 10px #000, 50px 10px #000, /* 第1行 */
+    10px 20px #fff, 20px 20px #fff, 30px 20px #000, 40px 20px #000, 50px 20px #000, /* 第2行 */
+    10px 30px #000, 20px 30px #fff, 30px 30px #000, 40px 30px #000, 50px 30px #000, /* 第3行 */
+    10px 40px #000, 20px 40px #fff, 30px 40px #fff, 40px 40px #fff, 50px 40px #fff, /* 第4行 */
+    10px 50px #000, 20px 50px #000, 30px 50px #000, 40px 50px #000, 50px 50px #000; /* 第5行 */
+}
+.block.F::before {
+    box-shadow: 
+    10px 10px #000, 20px 10px #000, 30px 10px #000, 40px 10px #000, 50px 10px #000, /* 第1行 */
+    10px 20px #000, 20px 20px #fff, 30px 20px #000, 40px 20px #fff, 50px 20px #000, /* 第2行 */
+    10px 30px #fff, 20px 30px #fff, 30px 30px #fff, 40px 30px #fff, 50px 30px #000, /* 第3行 */
+    10px 40px #000, 20px 40px #fff, 30px 40px #000, 40px 40px #fff, 50px 40px #000, /* 第4行 */
+    10px 50px #000, 20px 50px #000, 30px 50px #000, 40px 50px #000, 50px 50px #000; /* 第5行 */
+}
+.block.G::before {
+    box-shadow: 
+    10px 10px #000, 20px 10px #000, 30px 10px #000, 40px 10px #fff, 50px 10px #000, /* 第1行 */
+    10px 20px #000, 20px 20px #000, 30px 20px #fff, 40px 20px #fff, 50px 20px #000, /* 第2行 */
+    10px 30px #000, 20px 30px #000, 30px 30px #fff, 40px 30px #000, 50px 30px #000, /* 第3行 */
+    10px 40px #000, 20px 40px #000, 30px 40px #fff, 40px 40px #fff, 50px 40px #000, /* 第4行 */
+    10px 50px #000, 20px 50px #000, 30px 50px #000, 40px 50px #fff, 50px 50px #000; /* 第5行 */
+}
+.block.H::before {
+    box-shadow: 
+    10px 10px #000, 20px 10px #000, 30px 10px #000, 40px 10px #000, 50px 10px #000, /* 第1行 */
+    10px 20px #000, 20px 20px #fff, 30px 20px #fff, 40px 20px #fff, 50px 20px #000, /* 第2行 */
+    10px 30px #000, 20px 30px #fff, 30px 30px #000, 40px 30px #fff, 50px 30px #000, /* 第3行 */
+    10px 40px #000, 20px 40px #fff, 30px 40px #fff, 40px 40px #fff, 50px 40px #000, /* 第4行 */
+    10px 50px #000, 20px 50px #000, 30px 50px #000, 40px 50px #fff, 50px 50px #000; /* 第5行 */
+}
+.block.I::before {
+    box-shadow: 
+    10px 10px #000, 20px 10px #fff, 30px 10px #000, 40px 10px #fff, 50px 10px #000, /* 第1行 */
+    10px 20px #000, 20px 20px #fff, 30px 20px #fff, 40px 20px #fff, 50px 20px #000, /* 第2行 */
+    10px 30px #000, 20px 30px #000, 30px 30px #000, 40px 30px #000, 50px 30px #000, /* 第3行 */
+    10px 40px #000, 20px 40px #000, 30px 40px #000, 40px 40px #000, 50px 40px #000, /* 第4行 */
+    10px 50px #000, 20px 50px #000, 30px 50px #000, 40px 50px #000, 50px 50px #000; /* 第5行 */
+}
+.block.J::before {
+    box-shadow: 
+    10px 10px #000, 20px 10px #000, 30px 10px #000, 40px 10px #000, 50px 10px #000, /* 第1行 */
+    10px 20px #000, 20px 20px #000, 30px 20px #000, 40px 20px #000, 50px 20px #000, /* 第2行 */
+    10px 30px #000, 20px 30px #000, 30px 30px #000, 40px 30px #000, 50px 30px #000, /* 第3行 */
+    10px 40px #000, 20px 40px #000, 30px 40px #000, 40px 40px #fff, 50px 40px #fff, /* 第4行 */
+    10px 50px #000, 20px 50px #000, 30px 50px #000, 40px 50px #fff, 50px 50px #000; /* 第5行 */
+}
+.block.K::before,.block.Q::before {
+    box-shadow: 
+    10px 10px #000, 20px 10px #000, 30px 10px #000, 40px 10px #fff, 50px 10px #000, /* 第1行 */
+    10px 20px #000, 20px 20px #000, 30px 20px #000, 40px 20px #fff, 50px 20px #000, /* 第2行 */
+    10px 30px #000, 20px 30px #000, 30px 30px #000, 40px 30px #fff, 50px 30px #000, /* 第3行 */
+    10px 40px #000, 20px 40px #fff, 30px 40px #fff, 40px 40px #fff, 50px 40px #000, /* 第4行 */
+    10px 50px #000, 20px 50px #fff, 30px 50px #000, 40px 50px #000, 50px 50px #000; /* 第5行 */
+}
+.block.L::before {
+    box-shadow: 
+    10px 10px #000, 20px 10px #000, 30px 10px #000, 40px 10px #000, 50px 10px #000, /* 第1行 */
+    10px 20px #000, 20px 20px #fff, 30px 20px #fff, 40px 20px #fff, 50px 20px #000, /* 第2行 */
+    10px 30px #000, 20px 30px #000, 30px 30px #fff, 40px 30px #000, 50px 30px #000, /* 第3行 */
+    10px 40px #000, 20px 40px #fff, 30px 40px #fff, 40px 40px #fff, 50px 40px #000, /* 第4行 */
+    10px 50px #000, 20px 50px #000, 30px 50px #fff, 40px 50px #000, 50px 50px #000; /* 第5行 */
+}
+.block.M::before {
+    box-shadow: 
+    10px 10px #000, 20px 10px #000, 30px 10px #000, 40px 10px #000, 50px 10px #000, /* 第1行 */
+    10px 20px #000, 20px 20px #000, 30px 20px #000, 40px 20px #000, 50px 20px #000, /* 第2行 */
+    10px 30px #000, 20px 30px #fff, 30px 30px #fff, 40px 30px #fff, 50px 30px #000, /* 第3行 */
+    10px 40px #fff, 20px 40px #fff, 30px 40px #000, 40px 40px #fff, 50px 40px #fff, /* 第4行 */
+    10px 50px #000, 20px 50px #000, 30px 50px #000, 40px 50px #000, 50px 50px #000; /* 第5行 */
+}
+.block.N::before {
+    box-shadow: 
+    10px 10px #000, 20px 10px #000, 30px 10px #000, 40px 10px #000, 50px 10px #000, /* 第1行 */
+    10px 20px #000, 20px 20px #fff, 30px 20px #fff, 40px 20px #fff, 50px 20px #fff, /* 第2行 */
+    10px 30px #000, 20px 30px #fff, 30px 30px #000, 40px 30px #fff, 50px 30px #000, /* 第3行 */
+    10px 40px #000, 20px 40px #fff, 30px 40px #fff, 40px 40px #fff, 50px 40px #000, /* 第4行 */
+    10px 50px #000, 20px 50px #000, 30px 50px #000, 40px 50px #000, 50px 50px #000; /* 第5行 */
+}
+.block.O::before {
+    box-shadow: 
+    10px 10px #000, 20px 10px #000, 30px 10px #000, 40px 10px #000, 50px 10px #000, /* 第1行 */
+    10px 20px #fff, 20px 20px #fff, 30px 20px #000, 40px 20px #000, 50px 20px #000, /* 第2行 */
+    10px 30px #000, 20px 30px #fff, 30px 30px #000, 40px 30px #000, 50px 30px #000, /* 第3行 */
+    10px 40px #fff, 20px 40px #fff, 30px 40px #000, 40px 40px #000, 50px 40px #000, /* 第4行 */
+    10px 50px #000, 20px 50px #000, 30px 50px #000, 40px 50px #000, 50px 50px #000; /* 第5行 */
+}
+.block.P::before {
+    box-shadow: 
+    10px 10px #000, 20px 10px #000, 30px 10px #000, 40px 10px #fff, 50px 10px #000, /* 第1行 */
+    10px 20px #000, 20px 20px #000, 30px 20px #000, 40px 20px #fff, 50px 20px #fff, /* 第2行 */
+    10px 30px #000, 20px 30px #000, 30px 30px #000, 40px 30px #000, 50px 30px #000, /* 第3行 */
+    10px 40px #000, 20px 40px #000, 30px 40px #000, 40px 40px #000, 50px 40px #000, /* 第4行 */
+    10px 50px #000, 20px 50px #000, 30px 50px #000, 40px 50px #000, 50px 50px #000; /* 第5行 */
+}
+.block.R::before {
+    box-shadow: 
+    10px 10px #000, 20px 10px #000, 30px 10px #000, 40px 10px #000, 50px 10px #000, /* 第1行 */
+    10px 20px #000, 20px 20px #fff, 30px 20px #000, 40px 20px #fff, 50px 20px #000, /* 第2行 */
+    10px 30px #000, 20px 30px #fff, 30px 30px #fff, 40px 30px #fff, 50px 30px #fff, /* 第3行 */
+    10px 40px #000, 20px 40px #fff, 30px 40px #000, 40px 40px #fff, 50px 40px #000, /* 第4行 */
+    10px 50px #000, 20px 50px #000, 30px 50px #000, 40px 50px #000, 50px 50px #000; /* 第5行 */
+}
+.block.S::before {
+    box-shadow: 
+    10px 10px #000, 20px 10px #fff, 30px 10px #000, 40px 10px #000, 50px 10px #000, /* 第1行 */
+    10px 20px #000, 20px 20px #fff, 30px 20px #fff, 40px 20px #000, 50px 20px #000, /* 第2行 */
+    10px 30px #000, 20px 30px #000, 30px 30px #fff, 40px 30px #000, 50px 30px #000, /* 第3行 */
+    10px 40px #000, 20px 40px #fff, 30px 40px #fff, 40px 40px #000, 50px 40px #000, /* 第4行 */
+    10px 50px #000, 20px 50px #fff, 30px 50px #000, 40px 50px #000, 50px 50px #000; /* 第5行 */
+}
+.block.T::before {
+    box-shadow: 
+    10px 10px #000, 20px 10px #fff, 30px 10px #000, 40px 10px #000, 50px 10px #000, /* 第1行 */
+    10px 20px #000, 20px 20px #fff, 30px 20px #fff, 40px 20px #fff, 50px 20px #000, /* 第2行 */
+    10px 30px #000, 20px 30px #fff, 30px 30px #000, 40px 30px #fff, 50px 30px #000, /* 第3行 */
+    10px 40px #000, 20px 40px #fff, 30px 40px #fff, 40px 40px #fff, 50px 40px #000, /* 第4行 */
+    10px 50px #000, 20px 50px #000, 30px 50px #000, 40px 50px #000, 50px 50px #000; /* 第5行 */
+}
+.block.U::before,.block.V::before {
+    box-shadow: 
+    10px 10px #000, 20px 10px #000, 30px 10px #000, 40px 10px #000, 50px 10px #000, /* 第1行 */
+    10px 20px #000, 20px 20px #000, 30px 20px #000, 40px 20px #000, 50px 20px #000, /* 第2行 */
+    10px 30px #000, 20px 30px #000, 30px 30px #000, 40px 30px #000, 50px 30px #000, /* 第3行 */
+    10px 40px #000, 20px 40px #fff, 30px 40px #fff, 40px 40px #fff, 50px 40px #000, /* 第4行 */
+    10px 50px #000, 20px 50px #fff, 30px 50px #000, 40px 50px #fff, 50px 50px #000; /* 第5行 */
+}
+.block.W::before {
+    box-shadow: 
+    10px 10px #000, 20px 10px #fff, 30px 10px #000, 40px 10px #000, 50px 10px #000, /* 第1行 */
+    10px 20px #fff, 20px 20px #fff, 30px 20px #000, 40px 20px #000, 50px 20px #000, /* 第2行 */
+    10px 30px #000, 20px 30px #000, 30px 30px #000, 40px 30px #000, 50px 30px #000, /* 第3行 */
+    10px 40px #000, 20px 40px #000, 30px 40px #000, 40px 40px #000, 50px 40px #000, /* 第4行 */
+    10px 50px #000, 20px 50px #000, 30px 50px #000, 40px 50px #000, 50px 50px #000; /* 第5行 */
+}
+.block.X::before {
+    box-shadow: 
+    10px 10px #000, 20px 10px #000, 30px 10px #000, 40px 10px #fff, 50px 10px #000, /* 第1行 */
+    10px 20px #000, 20px 20px #fff, 30px 20px #fff, 40px 20px #fff, 50px 20px #000, /* 第2行 */
+    10px 30px #000, 20px 30px #fff, 30px 30px #000, 40px 30px #000, 50px 30px #000, /* 第3行 */
+    10px 40px #000, 20px 40px #fff, 30px 40px #000, 40px 40px #000, 50px 40px #000, /* 第4行 */
+    10px 50px #000, 20px 50px #fff, 30px 50px #000, 40px 50px #000, 50px 50px #000; /* 第5行 */
+}
+.block.Y::before {
+    box-shadow: 
+    10px 10px #000, 20px 10px #000, 30px 10px #fff, 40px 10px #000, 50px 10px #000, /* 第1行 */
+    10px 20px #000, 20px 20px #fff, 30px 20px #fff, 40px 20px #fff, 50px 20px #000, /* 第2行 */
+    10px 30px #000, 20px 30px #000, 30px 30px #fff, 40px 30px #000, 50px 30px #000, /* 第3行 */
+    10px 40px #000, 20px 40px #fff, 30px 40px #fff, 40px 40px #fff, 50px 40px #000, /* 第4行 */
+    10px 50px #000, 20px 50px #000, 30px 50px #000, 40px 50px #000, 50px 50px #000; /* 第5行 */
+}
+.block.Z::before {
+    box-shadow: 
+    10px 10px #000, 20px 10px #000, 30px 10px #000, 40px 10px #000, 50px 10px #000, /* 第1行 */
+    10px 20px #fff, 20px 20px #fff, 30px 20px #fff, 40px 20px #fff, 50px 20px #000, /* 第2行 */
+    10px 30px #000, 20px 30px #000, 30px 30px #000, 40px 30px #fff, 50px 30px #000, /* 第3行 */
+    10px 40px #000, 20px 40px #000, 30px 40px #000, 40px 40px #fff, 50px 40px #fff, /* 第4行 */
+    10px 50px #000, 20px 50px #000, 30px 50px #000, 40px 50px #000, 50px 50px #000; /* 第5行 */
+}
