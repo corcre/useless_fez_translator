@@ -12,30 +12,27 @@
         display: flex;
       }
       .block {
-        margin: 10px;
-        width: 50px;
-        height: 50px;
+        margin: 5px;
+        width: 25px;
+        height: 25px;
         position: relative;
       }
       .block::before {
         content: '';
 
         /* 一个点的大小(例:20px x 20px) */
-        width: 10px;
-        height: 10px;
+        width: 5px;
+        height: 5px;
         /* box-shadow 着色，伪元素设为透明 */
         background-color: transparent;
 
         /* 调整伪元素位置，让左上角成为(0,0) */
         position: absolute;
-        top: -10px;
-        left: -10px;
+        top: -5px;
+        left: -5px;
       }
       .row > .block {
         flex-wrap: wrap;
-      }
-      #container {
-        zoom: 0.5;
       }
       #print_container {
         height: 200px;
